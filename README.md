@@ -10,6 +10,12 @@ All Data (Position and return data from ack sending) are saved to a csv or xml f
 Data could be directly visualized with an integrated google maps viewer.
 Position Data are send to TTN and TTNMapper.
 
+[Connecting the device](#connecting-the-device)   
+[Firmware for device](#firmware-for-device)   
+[Using the Software](#using-the-software)   
+[TTN Decoder](#ttn-decoder)   
+
+
 # Connecting the device
 
 If you have bought the LoRaWAN-Mapper directly from WASN.eu ([buy](https://www.wasn.eu/p/wasn-lorawan-mapper)),
@@ -26,7 +32,7 @@ Wire them together:
   | 3.3V         | 3.3V    |
 
 
-# Firmware for CubeCell device
+# Firmware for device
 
 If you have bought the LoRaWAN-Mapper directly from WASN.eu ([buy](https://www.wasn.eu/p/wasn-lorawan-mapper)) the firmware is allready loaded to the dongle.
 
@@ -58,3 +64,7 @@ If you like to build the dongle by your self, you find the firmware [here](https
   - press send to transmit a package
   - when the ackknowledge package was received the data will show up in the table and on the map
 - you can save the data in a csv or xml file by pressing the "Save XML"or "Save CSV" button
+
+# TTN Decoder:
+
+  The ttn-decode.js can be founf [here](https://github.com/raystream/LoRaWAN_Mapper/raw/master/TTN/decoder.js).
