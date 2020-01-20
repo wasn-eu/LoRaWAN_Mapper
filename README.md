@@ -33,7 +33,7 @@ If you like to build the dongle by your self, you find the firmware [here](https
 
 # Using the software
 
-- Download the software [here]() and start it.
+- Download the software [here](https://github.com/raystream/LoRaWAN_Mapper/raw/master/LoRaWAN_Mapper/LoRaWAN_Mapper.exe) and start it.
 <p align="center">
 <img src="https://github.com/raystream/LoRaWAN_Mapper/raw/master/images/software.png" width=500>  
 </p>
