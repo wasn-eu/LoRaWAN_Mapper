@@ -67,4 +67,4 @@ If you like to build the dongle by your self, you find the firmware [here](https
 
 # TTN Decoder:
 
-  The ttn-decode.js can be founf [here](https://github.com/raystream/LoRaWAN_Mapper/raw/master/TTN/decoder.js).
+  The ttn-decode.js can be found [here](https://github.com/raystream/LoRaWAN_Mapper/raw/master/TTN/decoder.js).
