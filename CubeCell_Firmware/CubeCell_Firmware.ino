@@ -1,5 +1,14 @@
+/*
+  LoRaWan_Mapper
+  programmed by WideAreaSensorNetwork
+  copyright by WASN.eu
+*/
+
 #include "LoRaWan_APP.h"
 #include "Arduino.h"
+
+
+String wasnver = "1.0.1";
 
 /*
  * set LoraWan_RGB to Active,the RGB active in loraWan
@@ -64,15 +73,15 @@ static void PrepareTxFrame( uint8_t port )
  * XXX is the para * cmd and YYYY is the para * content
  * you can test with 'AT+test=abcd' 
  */
-bool AT_user_check(char * cmd, char * content)
+bool AT_user_check(char *cmd, char *content)
 {
-  if(strcmp(cmd,"test")==0)
+  if (strcmp(cmd, "VER") == 0) 
   {
-    for(int i=0;i<strlen(content);i++)
+    if (content[0] == '?')
     {
-      Serial.printf("%c",content[i]);
+      Serial.print("+VER=");
+      Serial.println(wasnver);
     }
-    Serial.println();
     return true;
   }
   return false;
@@ -81,6 +90,10 @@ bool AT_user_check(char * cmd, char * content)
 void setup() {
     BoardInitMcu();
     Serial.begin(115200);
+	Serial.println("Copyright @ 2019 WASN.eu");
+  	Serial.print("FW-version: ");
+  	Serial.println(wasnver);
+  	Serial.println("");
 #if(AT_SUPPORT)
     Enable_AT();
 #endif
@@ -100,7 +113,7 @@ void loop()
 			printDevParam();
 			Serial.printf("LoRaWan Class%X  start! \r\n",CLASS+10);   
 			LoRaWAN.Init(CLASS,REGION);
-  		DeviceState = DEVICE_STATE_JOIN;
+  			DeviceState = DEVICE_STATE_JOIN;
 			break;
 		}
 		case DEVICE_STATE_JOIN:
@@ -108,11 +121,11 @@ void loop()
 			LoRaWAN.Join();
 			break;
 		}
-    case DEVICE_STATE_SEND:
-    {
-      DeviceState = DEVICE_STATE_CYCLE;
-      break;
-    }
+    	case DEVICE_STATE_SEND:
+    	{
+      		DeviceState = DEVICE_STATE_CYCLE;
+      		break;
+    	}
 		case DEVICE_STATE_CYCLE:
 		{
 			// Schedule next packet transmission
