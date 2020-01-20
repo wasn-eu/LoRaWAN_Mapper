@@ -37,7 +37,7 @@ If you like to build the dongle by your self, you find the firmware [here](https
 
 - Download the software [here](https://github.com/raystream/LoRaWAN_Mapper/raw/master/LoRaWAN_Mapper/LoRaWAN_Mapper.exe) and start it.
 <p align="center">
-<img src="https://github.com/raystream/LoRaWAN_Mapper/raw/master/images/software.png" width=750>  
+<img src="https://github.com/raystream/LoRaWAN_Mapper/raw/master/images/software_config.png" width=750>  
 </p>
 
 - open the config tab
@@ -48,6 +48,10 @@ If you like to build the dongle by your self, you find the firmware [here](https
   - choose if you would like to transmit a package every X seconds automatically
   - click on save
 - open the  Mapping tab
+<p align="center">
+<img src="https://github.com/raystream/LoRaWAN_Mapper/raw/master/images/software.png" width=750>  
+</p>
+
   - click connect (you should see Data from the CubeCell and GPS in the debug views)
   - if OTAA was choosen the LoRaWAN display in the upper right will change to green if the join was successfull
   - if the GPS has a fix the GPS display in the upper right will change to green
