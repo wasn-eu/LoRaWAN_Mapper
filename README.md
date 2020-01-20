@@ -2,7 +2,9 @@
 # (c) by <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/wasn_logo.png" width=70>
 
 
-GPS Mapping with the Panasonic Toughbook CF-U1 integrated GPS and a CubeCell Board.
+LoRaWAN GPS Mapping with the WASN LoRaWAN-Mapper.
+
+The LoRaWAN-Mapper combines a CubeCell module and a NEO6M GPS module, all connected with a single USB port to your PC.
 
 All Data (Position and return data from ack sending) are saved to a csv or xml file.
 Data could be directly visualized with an integrated google maps viewer.
