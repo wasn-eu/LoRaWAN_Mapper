@@ -36,7 +36,7 @@ Wire them together:
 
 If you have bought the LoRaWAN-Mapper directly from WASN.eu ([buy](https://www.wasn.eu/p/wasn-lorawan-mapper)) the firmware is allready loaded to the dongle.
 
-If you like to build the dongle by your self, you xcan flash the firmware with the [WASN Configurator](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Configurator/CubeCellConfigurator.exe).
+If you like to build the dongle by your self, you can flash the firmware by chossing the Firmware tab, selecting the right frequency and clicking on flash.
 
 
 # Using the software
