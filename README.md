@@ -37,7 +37,9 @@ Wire them together:
 If you have bought the LoRaWAN-Mapper directly from WASN.eu ([buy](https://www.wasn.eu/p/wasn-lorawan-mapper)) the firmware is allready loaded to the dongle.
 
 If you like to build the dongle by your self, you can flash the firmware by chossing the Firmware tab, selecting the right frequency and clicking on flash.
-
+<p align="center">
+<img src="https://github.com/raystream/LoRaWAN_Mapper/raw/master/images/software_flash.png" width=750>  
+</p>
 
 # Using the software
 
