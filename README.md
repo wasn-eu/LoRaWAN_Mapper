@@ -1,5 +1,5 @@
-# <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/wasn_logo.png" width=150> LoRaWAN - Mapper
-# (c) by <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/wasn_logo.png" width=70>
+# <img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/wasn_logo.png" width=150> LoRaWAN - Mapper
+# (c) by <img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/wasn_logo.png" width=70>
 
 
 LoRaWAN GPS Mapping with the WASN LoRaWAN-Mapper.
@@ -38,14 +38,14 @@ If you have bought the LoRaWAN-Mapper directly from WASN.eu ([buy](https://www.w
 
 If you like to build the dongle by your self, you can flash the firmware by chossing the Firmware tab, selecting the right frequency and clicking on flash.
 <p align="center">
-<img src="https://github.com/raystream/LoRaWAN_Mapper/raw/master/images/software_flash.png" width=750>  
+<img src="https://github.com/wasn-eu/LoRaWAN_Mapper/raw/master/images/software_flash.png" width=750>  
 </p>
 
 # Using the software
 
-- Download the software [here](https://github.com/raystream/LoRaWAN_Mapper/raw/master/LoRaWAN_Mapper/LoRaWAN_Mapper.exe) and start it.
+- Download the software [here](https://github.com/wasn-eu/LoRaWAN_Mapper/raw/master/LoRaWAN_Mapper/LoRaWAN_Mapper.exe) and start it.
 <p align="center">
-<img src="https://github.com/raystream/LoRaWAN_Mapper/raw/master/images/software_config.png" width=750>  
+<img src="https://github.com/wasn-eu/LoRaWAN_Mapper/raw/master/images/software_config.png" width=750>  
 </p>
 
 - open the config tab
@@ -57,7 +57,7 @@ If you like to build the dongle by your self, you can flash the firmware by chos
   - click on save
 - open the  Mapping tab
 <p align="center">
-<img src="https://github.com/raystream/LoRaWAN_Mapper/raw/master/images/software.png" width=750>  
+<img src="https://github.com/wasn-eu/LoRaWAN_Mapper/raw/master/images/software.png" width=750>  
 </p>
 
   - click connect (you should see Data from the CubeCell and GPS in the debug views)
@@ -69,4 +69,4 @@ If you like to build the dongle by your self, you can flash the firmware by chos
 
 # TTN Decoder:
 
-  The ttn-decode.js can be found [here](https://github.com/raystream/LoRaWAN_Mapper/raw/master/TTN/decoder.js).
+  The ttn-decode.js can be found [here](https://github.com/wasn-eu/LoRaWAN_Mapper/raw/master/TTN/decoder.js).
